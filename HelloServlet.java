@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletResponse;
  * Hello world!
  *
  */
-public class HelloServlet extends HttpServlet
+public class Sample extends HttpServlet
 {
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
     throws ServletException, IOException
     {
-        resp.getWriter().println("Hello Servlet World!");
+        resp.getWriter().println("Sample");
     }
 }
